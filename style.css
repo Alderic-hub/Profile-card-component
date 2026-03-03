@@ -1,0 +1,91 @@
+body{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0px;
+    color: hsl(229, 23%, 23%);
+    background-color:hsl(185, 75%, 39%) ;
+    overflow: hidden;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#bkg{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    z-index: -1;
+}
+#top{
+    margin-top: -155vh;
+    margin-left: -155vh;
+}
+#bottom{
+    margin-bottom: -165vh;
+    margin-right: -165vh;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:hsl(225, 10%, 92%);
+    height: fit-content;
+    width: fit-content;
+    border-radius: 20px;
+    color: hsl(227, 10%, 46%);
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Img img{
+    margin-top: -50px;
+    border-radius: 50px;
+}
+#pattern img{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#Info{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    border-bottom: 1px solid hsl(227, 10%, 46%);
+    width: 90%;
+    gap: 10px;
+    color: hsl(227, 10%, 46%);
+}
+#Info article{
+    display: flex;
+    gap: 10px;
+}
+#Info #Main{
+    font-size:0.6cm;   
+}
+.Name{
+    color: hsl(229, 23%, 23%);
+    font-weight: 600;
+}
+
+#Stats{
+    display: flex;
+    justify-content: space-around;
+    height: 15vh;
+    
+}
+#Stats article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    font-size: 0.4cm;
+}
+#Stats article span{
+    font-size:0.5cm;
+}
